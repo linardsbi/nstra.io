@@ -1,0 +1,79 @@
+---
+import Calendly from "@/components/Calendly.astro";
+import Card from "@/components/Card.astro";
+import Icon from "@/components/Icon.astro";
+import SectionTitle from "@/components/SectionTitle.astro";
+---
+
+<section id="deals" class="pt-44">
+  <SectionTitle> Our pricing </SectionTitle>
+  <div
+    class="my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-y-10 place-items-center"
+  >
+    <Card>
+      <header class="flex flex-col justify-center gap-y-3">
+        <h3 class="text-4xl text-center font-semibold">First consultation</h3>
+        <p class="text-xl text-center opacity-90">
+          Understanding the nature of your business and tailoring a personalized
+          approach
+        </p>
+      </header>
+      <section class="flex justify-center">
+        <h4 class="text-6xl font-semibold">Free</h4>
+      </section>
+      <section class="flex justify-start">
+        <ul class="flex flex-col gap-y-4 text-lg text-start">
+          <li class="flex flex-row px-7 gap-x-1">
+            <span>
+              <Icon class="w-6 h-auto text-primary" icon="CheckIcon" />
+            </span>
+            <p>30 min. call charge-free</p>
+          </li>
+          <li class="flex flex-row px-7 gap-x-1">
+            <span>
+              <Icon class="w-6 h-auto text-primary" icon="CheckIcon" />
+            </span>
+            <p>Additional deals for long-term partnerships</p>
+          </li>
+        </ul>
+      </section>
+      <footer class="flex justify-center">
+        <Calendly as="a" class="bg-primary text-white w-72" type="button">
+          Get started
+        </Calendly>
+      </footer>
+    </Card>
+    <Card>
+      <header class="flex flex-col justify-center gap-y-3">
+        <h3 class="text-4xl text-center font-semibold">Partnership</h3>
+        <p class="text-xl text-center opacity-90">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </header>
+      <section class="flex justify-center">
+        <h4 class="text-6xl font-semibold">TBD</h4>
+      </section>
+      <section class="flex justify-start">
+        <ul class="flex flex-col gap-y-4 text-lg text-start">
+          <li class="flex flex-row px-7 gap-x-1">
+            <span>
+              <Icon class="w-6 h-auto text-primary" icon="CheckIcon" />
+            </span>
+            <p>Price matching with existing services</p>
+          </li>
+          <li class="flex flex-row px-7 gap-x-1">
+            <span>
+              <Icon class="w-6 h-auto text-primary" icon="CheckIcon" />
+            </span>
+            <p>10% referral discount</p>
+          </li>
+        </ul>
+      </section>
+      <footer class="flex justify-center">
+        <Calendly as="a" class="bg-primary text-white w-72" type="button">
+          Get started
+        </Calendly>
+      </footer>
+    </Card>
+  </div>
+</section>

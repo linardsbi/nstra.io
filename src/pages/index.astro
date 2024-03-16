@@ -1,0 +1,37 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Services from "@/sections/Services.astro";
+import Booking from "@/sections/Booking.astro";
+import Footer from "@/sections/Footer.astro";
+import Header from "@/sections/Header.astro";
+import Hero from "@/sections/Hero.astro";
+import Pricing from "@/sections/Pricing.astro";
+import About from "@/sections/About.astro";
+import { getLandingData } from "@/services/data.service";
+
+const data = await getLandingData();
+---
+
+<!-- Calendly badge widget begin -->
+<link
+  href="https://assets.calendly.com/assets/external/widget.css"
+  rel="stylesheet"
+/>
+<script
+  src="https://assets.calendly.com/assets/external/widget.js"
+  type="text/javascript"
+  async></script>
+<!-- Calendly badge widget end -->
+<Layout meta={data.meta}>
+  <Header data={data.headerData} />
+  <main class="flex flex-col justify-center items-center">
+    <div class="w-3/4">
+      <Hero data={data.heroData} />
+      <About data={data.aboutData} />
+      <Services data={data.servicesData} />
+      <Pricing data={data.pricingData} />
+      <Booking />
+    </div>
+    <Footer data={data.footerData} />
+  </main>
+</Layout>

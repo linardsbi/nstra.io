@@ -1,0 +1,11 @@
+---
+import Action from "./Action.astro";
+---
+
+<Action
+  {...Astro.props}
+  as="button"
+  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nstra_consulting/30min?hide_gdpr_banner=1'});return false;"
+>
+  <slot />
+</Action>

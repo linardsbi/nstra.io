@@ -1,0 +1,24 @@
+---
+import SectionTitle from "@/components/SectionTitle.astro";
+import SideBySide from "@/components/SideBySide.astro";
+import type { ServicesData } from "@/config/landing.interface";
+
+interface Props {
+  data: ServicesData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="services" class="flex flex-col gap-y-28 pt-44">
+  <SectionTitle>
+    Strengthen your business with <span class="text-primary">Nostra</span>
+  </SectionTitle>
+  <div>
+    {
+      data.services.map((service, idx) => (
+        <SideBySide data={service} reversed={(idx + 1) % 2 === 0} />
+      ))
+    }
+  </div>
+</section>

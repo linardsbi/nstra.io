@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "title": "Nostra Consulting",
+    "description": "Landing page template",
+    "lang": "en",
+    "charset": "UTF-8",
+    "ldJson": {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Nostra Consulting",
+      "description": "Consulting firm that specializes in ensuring regulatory compliance in online banking",
+      "url": "https://nstra.io/",
+      "logo": "./public/favicon.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nstra.io",
+        "contactType": "Client Service"
+      },
+      "sameAs": ["https://www.linkedin.com/company/nostra"]
+    }
+  },
+  "headerData": {
+    "logo": "Luna Landing",
+    "links": [
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Deals", "href": "#deals" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "heroData": {
+    "title": "Linking networks to light your path to the stars. Welcome to",
+    "subTitle": "Bridging the gap between your business and industry-leading services. Ensuring compliance in today's regulatory landscape.",
+    "primaryCta": "Get started",
+    "secondaryCta": "See our pricing",
+    "highlightedTitle": "Nostra Consulting"
+  },
+  "aboutData": {
+    "title": "Everything you need to build a website",
+    "about": [
+      {
+        "title": "AML/CFT",
+        "icon": "DevIcon",
+        "description": "Strengthen your business with targeted AML/CFT strategies to mitigate financial crime risks."
+      },
+      {
+        "title": "Licensing",
+        "icon": "PlanetIcon",
+        "description": "Secure necessary business licenses seamlessly with expert guidance and support."
+      },
+      {
+        "title": "Banking",
+        "icon": "FileIcon",
+        "description": "Unlock banking solutions for high-risk businesses with specialized services."
+      },
+      {
+        "title": "Data",
+        "icon": "ConfigIcon",
+        "description": "Protect your data and comply with regulations through focused data security services"
+      }
+    ]
+  },
+  "servicesData": {
+    "title": "Strengthen your business with Nostra",
+    "services": [
+      {
+        "title": "To the moon!",
+        "description": "Nostra offers expert consulting services designed to navigate the complex regulatory landscape, tailored to your industry and business needs.",
+        "img": "template.webp",
+        "imageAlt": "this is an image about the template service advantages",
+        "checks": ["Expert advice", "Complete Support"]
+      },
+      {
+        "title": "Expert consulting services",
+        "description": "Our mission is to bridge the gap between businesses and essential industry-leading services, enhancing compliance, operational efficiency, and data security, to transform challenges into opportunities for innovation and success",
+        "img": "seo.webp",
+        "imageAlt": "this is an image about the SEO advantages",
+        "checks": ["Operational solutions", "Business development"]
+      }
+    ]
+  },
+  "pricingData": {
+    "title": "Our Pricing",
+    "tiers": [
+      {
+        "title": "Starter",
+        "description": "Best option for personal use & for your next project.",
+        "price": {
+          "amount": "Free"
+        },
+        "features": [
+          "feature 1",
+          "feature 2",
+          "feature 3",
+          "feature 4",
+          "feature 5"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "title": "Professional",
+        "description": "Relevant for multiple users, extended & premium support.",
+        "price": {
+          "amount": "$29",
+          "period": "/month"
+        },
+        "features": [
+          "feature 1",
+          "feature 2",
+          "feature 3",
+          "feature 4",
+          "feature 5"
+        ],
+        "cta": "Get started"
+      },
+      {
+        "title": "Enterprise",
+        "description": "Best for large scale uses and extended redistribution rights.",
+        "price": {
+          "amount": "$59",
+          "period": "/month"
+        },
+        "features": [
+          "feature 1",
+          "feature 2",
+          "feature 3",
+          "feature 4",
+          "feature 5"
+        ],
+        "cta": "Get started"
+      }
+    ]
+  },
+  "footerData": {
+    "logo": "Luna Landing",
+    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "links": [
+      { "label": "About", "href": "/" },
+      { "label": "Services", "href": "/" },
+      { "label": "Blog", "href": "/" },
+      { "label": "FAQs", "href": "/" },
+      { "label": "Contact", "href": "/" }
+    ],
+    "socials": [
+      { "icon": "FacebookIcon", "href": "/" },
+      { "icon": "InstagramIcon", "href": "/" },
+      { "icon": "TwitterIcon", "href": "/" },
+      { "icon": "GithubIcon", "href": "/" }
+    ]
+  }
+}
