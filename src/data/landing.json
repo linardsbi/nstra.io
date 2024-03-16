@@ -132,20 +132,18 @@
     ]
   },
   "footerData": {
-    "logo": "Luna Landing",
-    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "logo": "Nostra consulting",
+    "description": "Let's find your way to the stars",
     "links": [
-      { "label": "About", "href": "/" },
-      { "label": "Services", "href": "/" },
-      { "label": "Blog", "href": "/" },
-      { "label": "FAQs", "href": "/" },
-      { "label": "Contact", "href": "/" }
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Deals", "href": "#deals" },
+      { "label": "Contact", "href": "#contact" }
     ],
     "socials": [
       { "icon": "FacebookIcon", "href": "/" },
       { "icon": "InstagramIcon", "href": "/" },
-      { "icon": "TwitterIcon", "href": "/" },
-      { "icon": "GithubIcon", "href": "/" }
+      { "icon": "TwitterIcon", "href": "/" }
     ]
   }
 }
